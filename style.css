@@ -393,7 +393,7 @@ form {
 }
 
 .product {
-  background: linear-gradient(transparent 40%, #E8F6FA 40%) no-repeat;
+  background: linear-gradient(transparent 30%, #E8F6FA 30%) no-repeat;
   height: 320px;
   width: 200px;
   overflow: hidden;
@@ -401,7 +401,7 @@ form {
 }
 
 .product:hover {
-  background: linear-gradient(transparent 40%, #E8F6FA 40%) no-repeat;
+  background: linear-gradient(transparent 30%, #E8F6FA 30%) no-repeat;
   height: 400px;
   overflow: hidden;
 }
