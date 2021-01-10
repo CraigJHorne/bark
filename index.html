@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BARK</title>
+
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Meta -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+
+	<!-- Header -->
+
+		<header-component></header-component>
+
+		<div id="burgerModal" class="burger-nav modal">
+			<section class="hero burger">
+				<img class="burger-nav__logo" src="layers/svg/logo.svg" alt="logo">
+				<img id="cross" class="cross" src="layers/svg/cross.svg" alt="cross">
+	            <ul class="burger-nav__list">
+	                <li class="burger-nav__link burger-nav__link--active"><h4><a href="active.html">Active</a></h4></li>
+	                <li class="burger-nav__link"><h4><a href="linkone.html">Link One</a></h4></li>
+	                <li class="burger-nav__link"><h4><a href="linktwo.html">Link Two</a></h4></li>
+	                <li class="burger-nav__link"><h4><a href="linkthree.html">Link Three</a></h4></li>
+            	</ul>
+      		</section>
+          </div>
+		</div>
+
+
+
+	<!-- Modal -->
+
+		<section id="signupModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-content__inner bg-blue">
+					<div class="modal-dog">
+						<img class="modal-dog__image" src="layers/png/dog-popup@2x.png" alt="dog">
+					</div>
+				</div>
+				<div class="modal-content__inner">
+					<div class="modal-content__info">
+						<img id="close" class="close" src="layers/svg/cross.svg" alt="cross">
+						<h2 class="mt30">Newsletter Sign Up</h2>
+						<form>
+							<input class="modal-content__input" type="text" id="your-name" name="name" placeholder="Name" required>
+							<input class="modal-content__input" type="email" id="your-email" name="email" placeholder="Email Address" required>
+							<p class="grey">Donec id elit non mi porta gravida at eget metus</p>
+							<input type="submit" value="Sign Up" class="btn btn--thick mt30">
+						</form>
+					</div>
+				</div>
+		</section>
+
+	<!-- Main -->
+
+		<!-- Home -->
+
+
+	<main >
+
+		<hero-component></hero-component>
+		<carousel-component></carousel-component>
+		<feature-component></feature-component>
+		<offer-component></offer-component>
+
+	</main>
+
+	<!-- Footer -->
+	
+	<footer-component></footer-component>
+
+
+<script type="text/javascript" src="components/header.js"></script>
+<script type="text/javascript" src="components/hero.js"></script>
+<script type="text/javascript" src="components/modal.js"></script>
+<script type="text/javascript" src="components/carousel.js"></script>
+<script type="text/javascript" src="components/feature.js"></script>
+<script type="text/javascript" src="components/footer.js"></script>
+<script type="text/javascript" src="components/offer.js"></script>
+
+</body>
+</html>
